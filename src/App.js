@@ -1,13 +1,13 @@
 import './App.css';
 
 import Title from './components/Title';
-import Headers from './examples/Headers';
+import PostRequest from './examples/PostRequest';
 
 function App() {
   return (
     <main>
       <Title />
-      <Headers />
+      <PostRequest />
     </main>
   );
 }
