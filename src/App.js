@@ -1,13 +1,13 @@
 import './App.css';
 
 import Title from './components/Title';
-import PostRequest from './examples/PostRequest';
+import GlobalInstance from './examples/GlobalInstance';
 
 function App() {
   return (
     <main>
       <Title />
-      <PostRequest />
+      <GlobalInstance />
     </main>
   );
 }
