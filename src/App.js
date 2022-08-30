@@ -1,13 +1,13 @@
 import './App.css';
 
 import Title from './components/Title';
-import FirstRequest from './examples/1-first-request';
+import Headers from './examples/Headers';
 
 function App() {
   return (
     <main>
       <Title />
-      <FirstRequest />
+      <Headers />
     </main>
   );
 }
