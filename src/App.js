@@ -1,13 +1,13 @@
 import './App.css';
 
 import Title from './components/Title';
-import GlobalInstance from './examples/GlobalInstance';
+import CustomInstance from './examples/CustomInstance';
 
 function App() {
   return (
     <main>
       <Title />
-      <GlobalInstance />
+      <CustomInstance />
     </main>
   );
 }
